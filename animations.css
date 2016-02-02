@@ -1,0 +1,84 @@
+@import url("whitespace-reset.css");
+
+body {
+  font: 16px normal Helvetica, sans-serif;
+  background: #1766b5;
+  padding: 100px;
+}
+
+main {
+  background: #fff;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+#screen {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  background: #000000;
+  border: 3px solid #dc143c;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 36px;
+  padding-bottom: 30px;
+}
+
+dl {
+  display: block;
+}
+
+dt, dd {
+  display: inline-block;
+  margin: 0 10px 10px 0;
+}
+
+input[type="submit"] {
+  width: 50%;
+  background-color: #eee;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+#screen_controls {
+  padding-bottom: 20px;
+}
+
+#screen_controls li {
+  display: inline-block;
+  padding: 0 15px 0 5px;
+  
+}
+
+#screen_controls li + li {
+  border-left: 1px solid red;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding-bottom: 15px;
+}
+
+.square, .circle, .star {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  
+}
+.square, .circle {
+  background: yellow;
+}
+.circle {
+  border-radius: 100%;
+}
+
+.star {
+  background: transparent url("star.png") 0 0 no-repeat;
+  background-size: 30px;
+}
+
